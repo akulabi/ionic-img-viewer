@@ -31,11 +31,7 @@ image-viewer.ion-page {
         display: flex;
         overflow: hidden;
         flex-direction: column;
-<<<<<<< HEAD
         pointer-events: none;
-
-=======
->>>>>>> 986c21841e83ed3ac54bae8274a5be1dbe6d6cb7
         margin-top: 56px;
         flex-grow: 1;
         justify-content: center;
@@ -45,12 +41,7 @@ image-viewer.ion-page {
     }
     img {
         display: block;
-<<<<<<< HEAD
-
         pointer-events: auto;
-
-=======
->>>>>>> 986c21841e83ed3ac54bae8274a5be1dbe6d6cb7
         max-width: 100%;
         max-height: 100vh;
         margin: 0 auto;

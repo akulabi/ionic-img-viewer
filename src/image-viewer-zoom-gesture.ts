@@ -86,14 +86,9 @@ export class ImageViewerZoomGesture extends Gesture {
       this.component.sliderContainer.lockSwipes(false);
 			return;
 		}
-<<<<<<< HEAD
 
 		this.currentDeltaX = this.boundAdjustement(Math.floor(this.adjustDeltaX + event.deltaX / this.currentScale), this.allowedXMargin);
 		this.currentDeltaY = this.boundAdjustement(Math.floor(this.adjustDeltaY + event.deltaY / this.currentScale), this.allowedYMargin);
-=======
-		this.currentDeltaX = this.boundAdjustement(Math.floor(this.adjustDeltaX + event.deltaX), this.allowedXMargin);
-		this.currentDeltaY = this.boundAdjustement(Math.floor(this.adjustDeltaY + event.deltaY), this.allowedYMargin);
->>>>>>> 986c21841e83ed3ac54bae8274a5be1dbe6d6cb7
 
 		this.setImageContainerTransform();
     this.component.sliderContainer.lockSwipes(true);
